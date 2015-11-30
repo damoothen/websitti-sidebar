@@ -1,1 +1,31 @@
 @import "compass";
+
+html, body {
+    height: 100%;
+}
+
+#wrapper {
+    height: 100%;
+    position: relative;
+    left: 0px;
+
+    #main {
+        height: 100%;
+        overflow: auto;
+    }
+
+    #sidebar {
+        background-color: #333333;
+        color: white;
+        position: absolute;
+        top: 0px;
+        left: -300px;
+        width: 300px;
+        height: 100%;
+        overflow: hidden;
+        #sidebar-content {
+            height: 100%;
+            overflow: auto;
+        }
+    }
+}

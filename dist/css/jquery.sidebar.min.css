@@ -1,0 +1,1 @@
+body,html{height:100%}#wrapper{height:100%;position:relative;left:0}#wrapper #main,#wrapper #sidebar #sidebar-content{height:100%;overflow:auto}#wrapper #sidebar{background-color:#333;color:#fff;position:absolute;top:0;left:-300px;width:300px;height:100%;overflow:hidden}
