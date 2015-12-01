@@ -1,20 +1,21 @@
 /* line 3, ../../sass/jquery.sidebar.scss */
 html, body {
   height: 100%;
+  overflow: hidden;
 }
 
-/* line 7, ../../sass/jquery.sidebar.scss */
+/* line 8, ../../sass/jquery.sidebar.scss */
 #wrapper {
   height: 100%;
   position: relative;
   left: 0px;
 }
-/* line 12, ../../sass/jquery.sidebar.scss */
+/* line 13, ../../sass/jquery.sidebar.scss */
 #wrapper #main {
   height: 100%;
   overflow: auto;
 }
-/* line 17, ../../sass/jquery.sidebar.scss */
+/* line 18, ../../sass/jquery.sidebar.scss */
 #wrapper #sidebar {
   background-color: #333333;
   color: white;
@@ -25,7 +26,7 @@ html, body {
   height: 100%;
   overflow: hidden;
 }
-/* line 26, ../../sass/jquery.sidebar.scss */
+/* line 27, ../../sass/jquery.sidebar.scss */
 #wrapper #sidebar #sidebar-content {
   height: 100%;
   overflow: auto;
